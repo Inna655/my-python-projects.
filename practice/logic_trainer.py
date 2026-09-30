@@ -1,0 +1,6 @@
+age = int(input("Возраст:"))
+drive_lsns = input("Есть ли у вас водительские права(да/нет):")
+print(f"Совершеннолетний: {age >= 18}")
+print(f"Есть права: {drive_lsns == 'да'}")
+print(f"Может водить: {age >= 18 and drive_lsns == 'да'}")
+print(f"Есть хоть что-то: {age >= 18 or drive_lsns == 'да'}")
